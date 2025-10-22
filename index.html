@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+            <meta name="robots" content="noindex" />
+        <title>Mi Player — Demo</title>
+        <link rel="stylesheet" href="/src/style.css" />
+    </head>
+    <body>
+            <script>
+                // Simple link-only gate: require ?k=<TOKEN> in URL
+                (function(){
+                    const SECRET = 'r3D8qz7P'
+                    const params = new URLSearchParams(location.search)
+                    if (params.get('k') === SECRET) return
+                    // allow a short bypass for local dev (localhost)
+                    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return
+                    // otherwise redirect to locked page
+                    location.replace('/locked.html')
+                })()
+            </script>
+        <div class="app-shell">
+            <main id="app" class="container">
+                <header class="header">
+                    <div class="brand">
+                        <h1>Mi Player</h1>
+                        <p class="subtitle">Demo estilo Spotify — proyecto de aprendizaje</p>
+                    </div>
+                    <div class="search">
+                        <input id="search" placeholder="Buscar canción o artista..." />
+                    </div>
+                </header>
+
+                <section class="content">
+                    <div class="player card" id="player">
+                        <div class="left">
+                            <img id="cover" src="/assets/flawed-mangoes.jpg" alt="Cover" class="cover" />
+                        </div>
+                        <div class="center">
+                            <div class="meta">
+                                <div id="title" class="title">—</div>
+                                <div id="artist" class="artist">—</div>
+                                <div id="albumName" class="album">—</div>
+                            </div>
+
+                            <div class="controls">
+                                <button id="prev" class="btn icon">◀</button>
+                                <button id="play" class="btn big">►</button>
+                                <button id="next" class="btn icon">▶</button>
+                            </div>
+
+                            <div class="progress-row">
+                                <span id="currentTime" class="time">0:00</span>
+                                <input id="progress" type="range" min="0" max="100" value="0" />
+                                <span id="duration" class="time">0:00</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <input id="volume" type="range" min="0" max="1" step="0.01" value="1" />
+                        </div>
+                    </div>
+
+                    <aside class="playlist-wrap card">
+                        <div class="albums-filter">
+                            <label for="albumSelect">Álbum:</label>
+                            <select id="albumSelect"><option value="__all">Todos</option></select>
+                        </div>
+                        <h2>Lista de reproducción</h2>
+                        <div id="playlist" class="playlist"></div>
+                    </aside>
+                </section>
+
+                <footer class="footer-note">Hecho con ❤️ — puedes personalizar esta demo</footer>
+            </main>
+        </div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

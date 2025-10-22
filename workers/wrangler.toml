@@ -1,0 +1,10 @@
+[name]
+name = "mi-player-token-gate"
+type = "javascript"
+account_id = "REPLACE_WITH_ACCOUNT_ID"
+workers_dev = true
+compatibility_date = "2025-10-23"
+
+# If you want to route via a custom domain, configure the route in the Cloudflare dashboard
+# or set `route = "player.tudominio.com/*"` below and remove workers_dev.
+# route = "player.tudominio.com/*"

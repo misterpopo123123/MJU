@@ -1,0 +1,101 @@
+[
+  {
+    "id": "t1",
+    "title": "Absolution",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 149,
+    "src": "/assets/Absolution.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t2",
+    "title": "Addicted",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 290,
+    "src": "/assets/Addicted.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t3",
+    "title": "Butterfly Effect",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 307,
+    "src": "/assets/Butterfly Effect.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t4",
+    "title": "Circle of Death",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 160,
+    "src": "/assets/Circle of Death.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t5",
+    "title": "Dawn Chorus",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 160,
+    "src": "/assets/Dawn Chorus.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t6",
+    "title": "Revelation",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 217,
+    "src": "/assets/Revelation.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t7",
+    "title": "Somniferous",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 228,
+    "src": "/assets/Somniferous.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t8",
+    "title": "Chicago",
+    "artist": "Michael Jackson",
+    "album": "XSCAPE",
+    "duration": 245,
+    "src": "/assets/SpotiDownloader.com - Chicago - Michael Jackson.mp3",
+    "cover": "/assets/Cover of Chicago by Michael Jackson.jpg"
+  },
+  {
+    "id": "t9",
+    "title": "Surreal",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 287,
+    "src": "/assets/Surreal.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  },
+  {
+    "id": "t10",
+    "title": "Killswitch Lullaby",
+    "artist": "Flawed Mangoes",
+    "album": "Killswitch Lullaby",
+    "duration": 147,
+    "src": "/assets/flawed-mangoes.mp3",
+    "cover": "/assets/flawed-mangoes.jpg"
+  },
+  {
+    "id": "t11",
+    "title": "mk4",
+    "artist": "Flawed Mangoes",
+    "album": "Anomaly III",
+    "duration": 158,
+    "src": "/assets/mk4.mp3",
+    "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
+  }
+]

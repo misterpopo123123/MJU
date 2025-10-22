@@ -1,0 +1,70 @@
+[
+  { "id": "t1", "title": "Absolution", "album": "Anomaly III — Flawed Mangoes" },
+  { "id": "t2", "title": "Addicted", "album": "Flawed Mangoes" },
+  { "id": "t3", "title": "Butterfly Effect", "album": "Flawed Mangoes" },
+  { "id": "t4", "title": "Circle of Death", "album": "Flawed Mangoes" },
+  { "id": "t5", "title": "Dawn Chorus", "album": "Flawed Mangoes" },
+  { "id": "t6", "title": "Revelation", "album": "Flawed Mangoes" },
+  { "id": "t7", "title": "Somniferous", "album": "Flawed Mangoes" },
+  { "id": "t8", "title": "SpotiDownloader.com - Chicago - Michael Jackson", "album": "Chicago — Michael Jackson" },
+  { "id": "t9", "title": "Surreal", "album": "Flawed Mangoes" },
+  { "id": "t10", "title": "flawed-mangoes", "album": "Flawed Mangoes" },
+  { "id": "t11", "title": "mk4", "album": "Flawed Mangoes" }
+]
+[
+  {
+    "id": "t1",
+    "title": "Absolution",
+    "album": "Local"
+  },
+  {
+    "id": "t2",
+    "title": "Addicted",
+    "album": "Local"
+  },
+  {
+    "id": "t3",
+    "title": "Butterfly Effect",
+    "album": "Local"
+  },
+  {
+    "id": "t4",
+    "title": "Circle of Death",
+    "album": "Local"
+  },
+  {
+    "id": "t5",
+    "title": "Dawn Chorus",
+    "album": "Local"
+  },
+  {
+    "id": "t6",
+    "title": "Revelation",
+    "album": "Local"
+  },
+  {
+    "id": "t7",
+    "title": "Somniferous",
+    "album": "Local"
+  },
+  {
+    "id": "t8",
+    "title": "SpotiDownloader.com - Chicago - Michael Jackson",
+    "album": "Local"
+  },
+  {
+    "id": "t9",
+    "title": "Surreal",
+    "album": "Local"
+  },
+  {
+    "id": "t10",
+    "title": "flawed-mangoes",
+    "album": "Local"
+  },
+  {
+    "id": "t11",
+    "title": "mk4",
+    "album": "Local"
+  }
+]

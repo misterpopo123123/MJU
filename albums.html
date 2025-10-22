@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Álbumes</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Álbumes</h1>
+        <p class="subtitle">Haz clic en un álbum para ver sus canciones</p>
+      </header>
+      <section id="albums" class="albums-grid"></section>
+      <footer class="footer-note"><a href="/">Volver al reproductor</a></footer>
+    </main>
+    <script>
+      async function load() {
+        const res = await fetch('/tracks.json')
+        const tracks = await res.json()
+        const map = {}
+        tracks.forEach(t => {
+          const a = t.album || 'Local'
+          if (!map[a]) map[a] = { cover: t.cover, songs: [] }
+          map[a].songs.push(t)
+        })
+        const container = document.getElementById('albums')
+        container.innerHTML = Object.keys(map).map(a=>`<article class="album"><img src="${map[a].cover}" alt="${a}" /><h3>${a}</h3><p>${map[a].songs.length} canciones</p><a href="/?album=${encodeURIComponent(a)}">Abrir</a></article>`).join('')
+      }
+      load()
+    </script>
+  </body>
+</html>

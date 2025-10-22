@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+dist/
+public/tracks.json.bak
+public/tracks.json.autobak
+public/tracks.json.coverbak
+public/tracks.json.t8fix.bak
+.env
+.env.local
+/.wrangler
+/.cache
