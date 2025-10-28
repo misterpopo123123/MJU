@@ -15,6 +15,7 @@ const volumeEl = $('#volume')
 const playlistEl = $('#playlist')
 const searchEl = $('#search')
 const playAllBtn = $('#playAll')
+const albumSelect = $('#albumSelect')
 
 let userInteracted = false
 
@@ -143,6 +144,7 @@ function renderFilteredPlaylist(filtered) {
       <div class="dur">${t.duration || ''}</div>
     `
     el.addEventListener('click', () => { loadTrack(tracks.indexOf(t)); play() })
+  el.addEventListener('click', () => { loadTrack(tracks.indexOf(t), { autoplay: true }) })
     playlistEl.appendChild(el)
     return el
   })
