@@ -14,6 +14,9 @@ const durationEl = $('#duration')
 const volumeEl = $('#volume')
 const playlistEl = $('#playlist')
 const searchEl = $('#search')
+const playAllBtn = $('#playAll')
+
+let userInteracted = false
 
 /**
  * Array storing the application's track list.
@@ -202,8 +205,8 @@ function loadTrack(index, opts = {}) {
     const active = playlistNodes[originalIndex]
     if (active) active.classList.add('active')
 
-    // autoplay if requested or if the player was already playing
-    if (opts.autoplay || wasPlaying) {
+    // autoplay if requested, if the player was already playing, or if user has interacted
+    if (opts.autoplay || wasPlaying || userInteracted) {
       audio.play().then(() => {
         playBtn.textContent = '❚❚'
       }).catch(() => {
@@ -254,6 +257,12 @@ function next() {
 playBtn.addEventListener('click', togglePlay)
 prevBtn.addEventListener('click', prev)
 nextBtn.addEventListener('click', next)
+if (playAllBtn) {
+  playAllBtn.addEventListener('click', () => {
+    userInteracted = true
+    loadTrack(0, { autoplay: true })
+  })
+}
 
 audio.addEventListener('timeupdate', () => {
   progressEl.value = Math.floor(audio.currentTime)
