@@ -14,5 +14,9 @@
     "music-metadata": "^8.3.0",
     "vite": "^5.0.0",
     "wrangler": "^4.44.0"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^11.6.2"
   }
 }
