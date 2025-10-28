@@ -1,6 +1,15 @@
 [
   {
     "id": "t1",
+    "title": "A Lonely Night",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 220,
+    "src": "/assets/A Lonely Night.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t2",
     "title": "Absolution",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -9,7 +18,7 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t2",
+    "id": "t3",
     "title": "Addicted",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -18,7 +27,25 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t3",
+    "id": "t4",
+    "title": "All I Know (feat. Future)",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 321,
+    "src": "/assets/All I Know (feat. Future).mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t5",
+    "title": "Attention",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 197,
+    "src": "/assets/Attention.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t6",
     "title": "Butterfly Effect",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -27,7 +54,7 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t4",
+    "id": "t7",
     "title": "Circle of Death",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -36,7 +63,7 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t5",
+    "id": "t8",
     "title": "Dawn Chorus",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -45,7 +72,97 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t6",
+    "id": "t9",
+    "title": "Die For You (with Ariana Grande) - Remix",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 232,
+    "src": "/assets/Die For You (with Ariana Grande) - Remix.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t10",
+    "title": "Die For You",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 260,
+    "src": "/assets/Die For You.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t11",
+    "title": "False Alarm",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 220,
+    "src": "/assets/False Alarm.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t12",
+    "title": "I Feel It Coming (feat. Daft Punk)",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 269,
+    "src": "/assets/I Feel It Coming (feat. Daft Punk).mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t13",
+    "title": "Love To Lay",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 223,
+    "src": "/assets/Love To Lay.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t14",
+    "title": "Nothing Without You",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 198,
+    "src": "/assets/Nothing Without You.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t15",
+    "title": "Ordinary Life",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 221,
+    "src": "/assets/Ordinary Life.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t16",
+    "title": "Party Monster",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 249,
+    "src": "/assets/Party Monster.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t17",
+    "title": "Reminder (feat. A$AP Rocky & Young Thug) - Remix",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 222,
+    "src": "/assets/Reminder (feat. A$AP Rocky & Young Thug) - Remix.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t18",
+    "title": "Reminder",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 218,
+    "src": "/assets/Reminder.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t19",
     "title": "Revelation",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -54,7 +171,43 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t7",
+    "id": "t20",
+    "title": "Rockin’",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 232,
+    "src": "/assets/Rockin’.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t21",
+    "title": "Secrets",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 265,
+    "src": "/assets/Secrets.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t22",
+    "title": "Sidewalks (feat. Kendrick Lamar)",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 231,
+    "src": "/assets/Sidewalks (feat. Kendrick Lamar).mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t23",
+    "title": "Six Feet Under",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 237,
+    "src": "/assets/Six Feet Under.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t24",
     "title": "Somniferous",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -63,79 +216,106 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t8",
+    "id": "t25",
     "title": "4 Am",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 161,
     "src": "/assets/SpotiDown.App - 4 Am - Eladio Carrion.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t9",
+    "id": "t26",
     "title": "Adiós",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 161,
     "src": "/assets/SpotiDown.App - Adiós - Eladio Carrion.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t10",
+    "id": "t27",
     "title": "Mariposas",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 141,
     "src": "/assets/SpotiDown.App - Mariposas - Eladio Carrion.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t11",
+    "id": "t28",
     "title": "Mírame",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 177,
     "src": "/assets/SpotiDown.App - Mírame - Eladio Carrion.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t12",
+    "id": "t29",
     "title": "Nena Buena",
     "artist": "Eladio Carrion, Lunay",
     "album": "Monarca",
     "duration": 163,
     "src": "/assets/SpotiDown.App - Nena Buena - Eladio Carrion, Lunay.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t13",
+    "id": "t30",
     "title": "Progreso",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 199,
     "src": "/assets/SpotiDown.App - Progreso - Eladio Carrion.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t14",
+    "id": "t31",
     "title": "Todo o Nada",
     "artist": "Eladio Carrion",
     "album": "Monarca",
     "duration": 159,
     "src": "/assets/SpotiDown.App - Todo o Nada - Eladio Carrion_ Corina Smith.mp3",
-    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t15",
+    "id": "t32",
     "title": "Chicago",
     "artist": "Michael Jackson",
     "album": "XSCAPE",
     "duration": 245,
     "src": "/assets/SpotiDownloader.com - Chicago - Michael Jackson.mp3",
-    "cover": "/assets/Cover of Chicago by Michael Jackson.jpg"
+    "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t16",
+    "id": "t33",
+    "title": "Starboy (feat. Daft Punk) - Kygo Remix",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 244,
+    "src": "/assets/Starboy (feat. Daft Punk) - Kygo Remix.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t34",
+    "title": "Starboy (feat. Daft Punk)",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 230,
+    "src": "/assets/Starboy (feat. Daft Punk).mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t35",
+    "title": "Stargirl Interlude (feat. Lana Del Rey)",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 111,
+    "src": "/assets/Stargirl Interlude (feat. Lana Del Rey).mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t36",
     "title": "Surreal",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -144,7 +324,16 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t17",
+    "id": "t37",
+    "title": "True Colors",
+    "artist": "The Weeknd",
+    "album": "Starboy (Deluxe)",
+    "duration": 206,
+    "src": "/assets/True Colors.mp3",
+    "cover": "/assets/Cover of Starboy (Deluxe) by The Weeknd.jpg"
+  },
+  {
+    "id": "t38",
     "title": "Killswitch Lullaby",
     "artist": "Flawed Mangoes",
     "album": "Killswitch Lullaby",
@@ -153,7 +342,7 @@
     "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t18",
+    "id": "t39",
     "title": "mk4",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
