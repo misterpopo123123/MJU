@@ -64,6 +64,69 @@
   },
   {
     "id": "t8",
+    "title": "4 Am",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 161,
+    "src": "/assets/SpotiDown.App - 4 Am - Eladio Carrion.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t9",
+    "title": "Adiós",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 161,
+    "src": "/assets/SpotiDown.App - Adiós - Eladio Carrion.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t10",
+    "title": "Mariposas",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 141,
+    "src": "/assets/SpotiDown.App - Mariposas - Eladio Carrion.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t11",
+    "title": "Mírame",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 177,
+    "src": "/assets/SpotiDown.App - Mírame - Eladio Carrion.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t12",
+    "title": "Nena Buena",
+    "artist": "Eladio Carrion, Lunay",
+    "album": "Monarca",
+    "duration": 163,
+    "src": "/assets/SpotiDown.App - Nena Buena - Eladio Carrion, Lunay.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t13",
+    "title": "Progreso",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 199,
+    "src": "/assets/SpotiDown.App - Progreso - Eladio Carrion.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t14",
+    "title": "Todo o Nada",
+    "artist": "Eladio Carrion",
+    "album": "Monarca",
+    "duration": 159,
+    "src": "/assets/SpotiDown.App - Todo o Nada - Eladio Carrion_ Corina Smith.mp3",
+    "cover": "/assets/SpotiDown.App - Progreso - Eladio Carrion.jpeg"
+  },
+  {
+    "id": "t15",
     "title": "Chicago",
     "artist": "Michael Jackson",
     "album": "XSCAPE",
@@ -72,7 +135,7 @@
     "cover": "/assets/Cover of Chicago by Michael Jackson.jpg"
   },
   {
-    "id": "t9",
+    "id": "t16",
     "title": "Surreal",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",
@@ -81,7 +144,7 @@
     "cover": "/assets/Cover of Anomaly III by Flawed Mangoes.jpg"
   },
   {
-    "id": "t10",
+    "id": "t17",
     "title": "Killswitch Lullaby",
     "artist": "Flawed Mangoes",
     "album": "Killswitch Lullaby",
@@ -90,7 +153,7 @@
     "cover": "/assets/flawed-mangoes.jpg"
   },
   {
-    "id": "t11",
+    "id": "t18",
     "title": "mk4",
     "artist": "Flawed Mangoes",
     "album": "Anomaly III",

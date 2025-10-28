@@ -51,6 +51,15 @@ audio.crossOrigin = 'anonymous'
 
 let playlistNodes = []
 
+const DEFAULT_COVER = 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="100%" height="100%" fill="#444" />
+  <path d="M9 18V5l12-2v13" stroke="#fff" stroke-width="1.2" />
+  <circle cx="6" cy="18" r="3" fill="#666" />
+  <circle cx="18" cy="18" r="3" fill="#666" />
+</svg>
+`)
+
 async function loadTracks() {
   try {
     const res = await fetch('/tracks.json')
@@ -71,7 +80,7 @@ function renderPlaylist() {
     el.className = 'track'
     el.dataset.index = i
     el.innerHTML = `
-      <img class="small-cover" src="${t.cover || '/assets/cover1.jpg'}" alt="">
+      <img class="small-cover" src="${t.cover || DEFAULT_COVER}" alt="">
       <div class="meta">
         <div class="t">${t.title}</div>
         <div class="a">${t.artist} • ${t.album || ''}</div>
@@ -119,7 +128,7 @@ function renderFilteredPlaylist(filtered) {
     el.className = 'track'
     el.dataset.index = tracks.indexOf(t)
     el.innerHTML = `
-      <img class="small-cover" src="${t.cover || '/assets/cover1.jpg'}" alt="">
+      <img class="small-cover" src="${t.cover || DEFAULT_COVER}" alt="">
       <div class="meta">
         <div class="t">${t.title}</div>
         <div class="a">${t.artist} • ${t.album || ''}</div>
@@ -137,7 +146,7 @@ function loadTrack(index) {
   currentIndex = index
   const t = tracks[index]
   audio.src = t.src
-  coverEl.src = t.cover || '/assets/cover1.jpg'
+  coverEl.src = t.cover || DEFAULT_COVER
   titleEl.textContent = t.title
   artistEl.textContent = t.artist
   albumNameEl.textContent = t.album || ''
