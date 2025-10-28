@@ -70,7 +70,10 @@ async function loadTracks() {
   }
   renderPlaylist()
   populateAlbumSelect()
-  if (tracks.length) loadTrack(0)
+  if (tracks.length) {
+    // try to autoplay the first track on load; browsers may block this without user interaction
+    loadTrack(0, { autoplay: true })
+  }
 }
 
 function renderPlaylist() {
@@ -87,7 +90,8 @@ function renderPlaylist() {
       </div>
       <div class="dur">${t.duration || ''}</div>
     `
-    el.addEventListener('click', () => { loadTrack(i); play() })
+    // when clicking a track, load it and autoplay immediately
+    el.addEventListener('click', () => { loadTrack(i, { autoplay: true }) })
     playlistEl.appendChild(el)
     return el
   })
@@ -142,9 +146,11 @@ function renderFilteredPlaylist(filtered) {
 }
 
 function loadTrack(index) {
+  // loadTrack(index, { autoplay: true }) will autoplay when appropriate
   if (!tracks[index]) return
   currentIndex = index
   const t = tracks[index]
+  const wasPlaying = !audio.paused && !audio.ended
   audio.src = t.src
   coverEl.src = t.cover || DEFAULT_COVER
   titleEl.textContent = t.title
@@ -164,6 +170,54 @@ function loadTrack(index) {
   playlistNodes.forEach(n => n.classList.remove('active'))
   const active = playlistNodes[index]
   if (active) active.classList.add('active')
+}
+
+// extended loadTrack with options wrapper so callers can request autoplay
+function loadTrack(index, opts = {}) {
+  // if caller passed an options object, use this function as the implementation
+  if (opts && (typeof opts.autoplay !== 'undefined')) {
+    // original implementation moved into inner function to preserve behavior
+    const originalIndex = index
+    if (!tracks[originalIndex]) return
+    currentIndex = originalIndex
+    const t = tracks[originalIndex]
+    const wasPlaying = !audio.paused && !audio.ended
+    audio.src = t.src
+    coverEl.src = t.cover || DEFAULT_COVER
+    titleEl.textContent = t.title
+    artistEl.textContent = t.artist
+    albumNameEl.textContent = t.album || ''
+    // reset UI
+    progressEl.value = 0
+    currentTimeEl.textContent = '0:00'
+    durationEl.textContent = '0:00'
+    // load metadata
+    audio.load()
+    audio.addEventListener('loadedmetadata', () => {
+      durationEl.textContent = formatTime(audio.duration)
+      progressEl.max = Math.floor(audio.duration)
+    }, { once: true })
+    // update playlist visual
+    playlistNodes.forEach(n => n.classList.remove('active'))
+    const active = playlistNodes[originalIndex]
+    if (active) active.classList.add('active')
+
+    // autoplay if requested or if the player was already playing
+    if (opts.autoplay || wasPlaying) {
+      audio.play().then(() => {
+        playBtn.textContent = '❚❚'
+      }).catch(() => {
+        // autoplay may be blocked by browser; ignore silently
+      })
+    }
+    return
+  }
+  // fallback when called without opts (legacy usage)
+  // keep backward compatibility: if a second argument isn't passed, treat as no-autoplay
+  if (typeof index === 'number') {
+    // call the new implementation with autoplay=false
+    return loadTrack(index, { autoplay: false })
+  }
 }
 
 function formatTime(seconds = 0) {
@@ -187,13 +241,13 @@ function pause() {
 
 function prev() {
   const i = (currentIndex - 1 + tracks.length) % tracks.length
-  loadTrack(i)
-  play()
+  // ensure immediate playback when moving prev
+  loadTrack(i, { autoplay: true })
 }
 function next() {
   const i = (currentIndex + 1) % tracks.length
-  loadTrack(i)
-  play()
+  // ensure immediate playback when moving next or when a track ends
+  loadTrack(i, { autoplay: true })
 }
 
 // events
